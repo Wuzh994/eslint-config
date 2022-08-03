@@ -1,0 +1,28 @@
+{
+  "name": "@wzh994/eslint-config",
+  "version": "0.0.1",
+  "description": "ESLint config",
+  "author": "Wuzh994",
+  "license": "MIT",
+  "homepage": "https://github.com/Wuzh994/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wuzh994/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wuzh994/eslint-config/issues"
+  },
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@wzh994/eslint-config-basic": "workspace:*"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  }
+}
