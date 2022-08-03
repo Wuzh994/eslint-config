@@ -1,6 +1,6 @@
 {
   "name": "@wzh994/eslint-config-basic",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "ESLint config",
   "author": "Wuzh994",
   "license": "MIT",
@@ -16,7 +16,9 @@
     "eslint-config"
   ],
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "lint": "eslint . --config=index.js"
   },
