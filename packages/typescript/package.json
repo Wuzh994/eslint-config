@@ -1,0 +1,30 @@
+{
+  "name": "@wzh994/eslint-config-ts",
+  "version": "0.1.0",
+  "description": "ESLint config",
+  "author": "Wuzh994",
+  "license": "MIT",
+  "homepage": "https://github.com/Wuzh994/eslint-config#readme",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "@wzh994/eslint-config-basic": "workspace:*"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  }
+}
